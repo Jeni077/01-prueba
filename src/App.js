@@ -1,26 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import miImagen from './Components/2.png';
 import { ComponenteHijo } from './Components/ComponenteHijo';
+import { hijo } from './Components/ComponenteHijo';
+
 
 function App() {
   return (
+
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
+      <img src={miImagen} className="App-logo"alt="Mi Imagen" />
+
         <p>
           Hola mundo
         </p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+        
         >
-saul
+Texto
         </a>
+     
         <ComponenteHijo>
-      
+        <hijo />
       </ComponenteHijo>
+      
       </header>
      
     </div>
